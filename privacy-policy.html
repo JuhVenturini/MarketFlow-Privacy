@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Política de Privacidade — MarketFlow</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f0f0f;
+      --surface: #181818;
+      --border: #2a2a2a;
+      --accent: #c8f135;
+      --text: #e8e8e8;
+      --muted: #888;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.75;
+      padding: 0 1.5rem 4rem;
+    }
+
+    header {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 4rem 0 2.5rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 3rem;
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--accent);
+      color: #0f0f0f;
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.25rem 0.75rem;
+      border-radius: 100px;
+      margin-bottom: 1.25rem;
+    }
+
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 400;
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+    }
+
+    .meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 1.25rem;
+      transition: border-color 0.2s;
+    }
+
+    section:hover {
+      border-color: #3a3a3a;
+    }
+
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.25rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    h2 .icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      background: var(--accent);
+      border-radius: 6px;
+      font-style: normal;
+      font-size: 0.85rem;
+    }
+
+    p { color: #c8c8c8; font-size: 0.95rem; margin-bottom: 0.75rem; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    ul li {
+      color: #c8c8c8;
+      font-size: 0.95rem;
+      padding-left: 1.25rem;
+      position: relative;
+    }
+
+    ul li::before {
+      content: '▸';
+      color: var(--accent);
+      position: absolute;
+      left: 0;
+      font-size: 0.75rem;
+      top: 0.15em;
+    }
+
+    .highlight-box {
+      background: rgba(200, 241, 53, 0.06);
+      border: 1px solid rgba(200, 241, 53, 0.2);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #c8f135;
+    }
+
+    footer {
+      max-width: 720px;
+      margin: 2.5rem auto 0;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="tag">Legal</div>
+  <h1>Política de Privacidade</h1>
+  <p class="meta">MarketFlow &nbsp;·&nbsp; Última atualização: <span id="date"></span></p>
+</header>
+
+<main>
+
+  <section>
+    <h2><span class="icon">📋</span> Visão Geral</h2>
+    <p>
+      O <strong>MarketFlow</strong> respeita a privacidade dos seus usuários. Esta política descreve como o aplicativo coleta, utiliza e protege suas informações pessoais.
+    </p>
+    <p>
+      Ao utilizar o MarketFlow, você concorda com as práticas descritas neste documento.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="icon">📷</span> Uso da Câmera</h2>
+    <p>
+      O MarketFlow solicita acesso à câmera do dispositivo <strong>exclusivamente</strong> para permitir que você tire fotos dentro do aplicativo.
+    </p>
+    <ul>
+      <li>As fotos são capturadas somente quando você realiza essa ação diretamente.</li>
+      <li>O app <strong>não acessa</strong> a câmera em segundo plano.</li>
+      <li>As imagens capturadas são utilizadas apenas para as finalidades do app e <strong>não são compartilhadas</strong> com terceiros sem o seu consentimento.</li>
+    </ul>
+    <div class="highlight-box">
+      ✦ A permissão de câmera nunca é ativada sem uma ação explícita do usuário.
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="icon">🗄️</span> Dados Coletados</h2>
+    <p>O MarketFlow pode coletar os seguintes dados para funcionamento do aplicativo:</p>
+    <ul>
+      <li>Imagens capturadas pela câmera (somente quando você autorizar)</li>
+      <li>Dados de uso do aplicativo para melhorias de desempenho</li>
+      <li>Informações do dispositivo (modelo, versão do sistema operacional)</li>
+    </ul>
+    <p>
+      Não coletamos dados sensíveis como localização, contatos, microfone ou informações financeiras sem aviso explícito.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="icon">🔒</span> Armazenamento e Segurança</h2>
+    <p>
+      Suas informações são armazenadas de forma segura. Adotamos medidas técnicas e organizacionais adequadas para proteger seus dados contra acesso não autorizado, perda ou divulgação.
+    </p>
+    <p>
+      Os dados armazenados localmente no dispositivo permanecem sob controle do usuário e podem ser removidos ao desinstalar o aplicativo.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="icon">🤝</span> Compartilhamento com Terceiros</h2>
+    <p>
+      O MarketFlow <strong>não vende, aluga ou compartilha</strong> seus dados pessoais com terceiros para fins comerciais.
+    </p>
+    <p>
+      Podemos compartilhar dados apenas nas seguintes situações:
+    </p>
+    <ul>
+      <li>Quando exigido por lei ou ordem judicial</li>
+      <li>Para proteger os direitos e segurança dos usuários</li>
+      <li>Com provedores de serviço que nos auxiliam na operação do app, sob obrigação de confidencialidade</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="icon">👤</span> Seus Direitos</h2>
+    <p>Você tem o direito de:</p>
+    <ul>
+      <li>Revogar a permissão de câmera a qualquer momento nas configurações do dispositivo</li>
+      <li>Solicitar a exclusão dos seus dados</li>
+      <li>Obter informações sobre os dados que possuímos sobre você</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="icon">✏️</span> Alterações nesta Política</h2>
+    <p>
+      Podemos atualizar esta política periodicamente. Quando isso ocorrer, atualizaremos a data no topo desta página. Recomendamos que você revise esta política regularmente.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="icon">✉️</span> Contato</h2>
+    <p>
+      Em caso de dúvidas sobre esta política de privacidade, entre em contato conosco pelo e-mail disponível na página do aplicativo na Google Play Store.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© <span id="year"></span> MarketFlow. Todos os direitos reservados.</p>
+</footer>
+
+<script>
+  const now = new Date();
+  document.getElementById('date').textContent = now.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' });
+  document.getElementById('year').textContent = now.getFullYear();
+</script>
+
+</body>
+</html>
